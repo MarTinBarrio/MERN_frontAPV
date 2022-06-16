@@ -29,7 +29,7 @@ const CambiarPassword = () => {
         //console.log(password.psw_actual);
         if(password.psw_nuevo.length < 8 ){
             //console.log('El password es menor a 8 dígitos');
-            setAlerta ({msg: 'El password ingresado es menor a 8 dígitos', error: true});
+            setAlerta ({msg: 'El password ingresado es menor a 8 dígitos.', error: true});
             return;
         }
 
